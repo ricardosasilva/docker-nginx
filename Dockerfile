@@ -1,4 +1,4 @@
-FROM salamandra/confd
+FROM salamandra/rsyslog
 
 # Install Nginx
 RUN add-apt-repository -y ppa:nginx/stable
