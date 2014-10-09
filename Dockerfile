@@ -9,7 +9,7 @@ ADD nginx/ /etc/nginx/
 ADD supervisor/conf.d/ /etc/supervisor/conf.d/
 
 # Define mountable directories.
-VOLUME ["/etc/nginx", "/data"]
+VOLUME ["/etc/nginx/sites-enabled", "/data"]
 
 # Expose ports.
 EXPOSE 80
